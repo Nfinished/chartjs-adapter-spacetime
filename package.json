@@ -39,7 +39,7 @@
       "pre-commit": "lint-staged -v"
     }
   },
-  "author": "u/nfinished",
+  "author": "Adam Trager <hello@adamtrager.com>",
   "license": "MIT",
   "keywords": [
     "spacetime",
