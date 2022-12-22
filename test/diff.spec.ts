@@ -1,4 +1,4 @@
-import adapter from '../src/adapter'
+import { adapter } from '../src'
 
 describe('diff', () => {
   it('correctly diffs two dates', () => {

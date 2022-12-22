@@ -23,9 +23,7 @@ const spacetime = (value: ParsableDate, weekStart?: number) =>
     weekStart,
   })
 
-// Spacetime ParsableDate is a union of Date, number, string, and object.
-// It's compatible with the DateAdapter interface, but this is easier than arguing.
-_adapters._date.override({
+export const adapter = {
   formats: function () {
     return FORMATS
   },
@@ -76,4 +74,8 @@ _adapters._date.override({
   endOf: function (time: ParsableDate, unit: TimeUnit) {
     return spacetime(time).endOf(unit).toNativeDate().getTime()
   },
-})
+}
+
+// Spacetime ParsableDate is a union of Date, number, string, and object.
+// It's compatible with the DateAdapter interface, but this is easier than arguing.
+_adapters._date.override(adapter)

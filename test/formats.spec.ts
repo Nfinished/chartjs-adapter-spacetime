@@ -1,4 +1,4 @@
-import adapter, { FORMATS } from '../src/adapter'
+import { adapter, FORMATS } from '../src'
 
 describe('formats', () => {
   it('returns available formats', () => {

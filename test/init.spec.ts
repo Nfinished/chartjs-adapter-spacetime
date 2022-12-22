@@ -1,4 +1,4 @@
-import adapter from '../src/adapter'
+import { adapter } from '../src'
 
 describe('init', () => {
   it("doesn't do anything right now", () => {

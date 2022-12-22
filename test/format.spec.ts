@@ -1,4 +1,4 @@
-import adapter from '../src/adapter'
+import { adapter } from '../src'
 
 const formats = {
   value: 1559056227321,

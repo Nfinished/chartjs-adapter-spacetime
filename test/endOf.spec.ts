@@ -1,5 +1,5 @@
 import { TimeUnit } from 'chart.js'
-import adapter from '../src/adapter'
+import { adapter } from '../src'
 
 describe('endOf', function () {
   const date = '2019-05-28T15:10:27.321Z'

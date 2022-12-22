@@ -1,4 +1,4 @@
-import adapter from '../src/adapter'
+import { adapter } from '../src'
 
 describe('parse', () => {
   it('should correctly parse using different types of value', function () {
