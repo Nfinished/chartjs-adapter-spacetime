@@ -1,6 +1,6 @@
 {
   "name": "chartjs-adapter-spacetime",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Spacetime adapter for Chart.js",
   "repository": {
     "type": "git",
