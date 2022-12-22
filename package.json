@@ -7,8 +7,10 @@
     "url": "git://github.com/nfinished/chartjs-adapter-spacetime.git"
   },
   "type": "module",
+  "types": "./index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ],
   "main": "./dist/chartjs-adapter-spacetime.umd.cjs",
   "module": "./dist/chartjs-adapter-spacetime.js",
@@ -28,7 +30,7 @@
     "*.{ts,tsx}": [
       "eslint --fix"
     ],
-    "*.{ts,tsx,json,md}": [
+    "*.{json,md}": [
       "prettier --write"
     ]
   },
@@ -48,7 +50,7 @@
   ],
   "homepage": "https://github.com/nfinished/chartjs-adapter-spacetime",
   "peerDependencies": {
-    "chart.js": "^4",
+    "chart.js": "^2.8.0",
     "spacetime": "^7.3.0"
   },
   "devDependencies": {
