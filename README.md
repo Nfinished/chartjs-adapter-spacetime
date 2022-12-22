@@ -27,3 +27,5 @@ ChartJS.register(TimeScale)
 ```
 
 When providing your own formats via [Chart.JS options](https://www.chartjs.org/docs/latest/axes/cartesian/time.html#configuration-options), use Spacetime's [unixFmt options](https://github.com/spencermountain/spacetime/blob/master/src/methods/format/unixFmt.js). Not currently supporting localization.
+
+Some portions of this project are based on [chartjs-adapter-luxon](https://www.github.com/chartjs/chartjs-adapter-luxon).
