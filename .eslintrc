@@ -7,7 +7,7 @@
   ],
   "overrides": [
     {
-      "files": ["babel.config.js"],
+      "files": ["babel.config.js", "vite.config.js"],
       "env": {
         "node": true
       }
