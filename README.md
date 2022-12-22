@@ -1,7 +1,7 @@
 ### !!! WIP: Waiting on Spacetime 7.4.0
 
 # chartjs-adapter-spacetime
-[![release](https://img.shields.io/github/release/nfinished/chartjs-adapter-spacetime.svg?style=flat-square&maxAge=600)](https://github.com/chartjs/chartjs-adapter-luxon/releases/latest)
+[![release](https://img.shields.io/github/release/nfinished/chartjs-adapter-spacetime.svg?style=flat-square&maxAge=600)](https://github.com/nfinished/chartjs-adapter-spacetime/releases/latest)
 ![npm peer dependency version](https://img.shields.io/npm/dependency-version/chartjs-adapter-spacetime/peer/chart.js?style=flat-square)
 ![npm peer dependency version](https://img.shields.io/npm/dependency-version/chartjs-adapter-spacetime/peer/spacetime?style=flat-square)
 
