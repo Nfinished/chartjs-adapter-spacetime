@@ -1,7 +1,7 @@
 {
   "name": "chartjs-adapter-spacetime",
   "version": "0.0.0",
-  "description": "Chart.js adapter to use Spacetime for time functionalities",
+  "description": "Spacetime adapter for Chart.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/nfinished/chartjs-adapter-spacetime.git"
@@ -32,7 +32,13 @@
   "files": [
     "dist/"
   ],
-  "keywords": [],
+  "keywords": [
+    "spacetime",
+    "chart.js",
+    "adapter",
+    "time",
+    "chartjs"
+  ],
   "homepage": "https://github.com/nfinished/chartjs-adapter-spacetime",
   "peerDependencies": {
     "chart.js": "^4",
