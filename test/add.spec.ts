@@ -1,8 +1,8 @@
 import { TimeUnit } from 'chart.js'
 import { adapter } from '../src'
 
-describe('add', function () {
-  const start = '2019-05-28T15:10:27.321Z'
+describe('add', () => {
+  const baseValue = '2019-05-28T15:10:27.321Z'
   const amount = 1
   const units = {
     millisecond: '2019-05-28T15:10:27.322Z',
@@ -16,9 +16,9 @@ describe('add', function () {
     year: '2020-05-28T15:10:27.321Z',
   }
 
-  it(`should correctly add ${amount} units to ${start}`, function () {
+  it(`adds one given unit of time to a base value`, () => {
     for (const unit of Object.keys(units)) {
-      const result = adapter.add(start, amount, unit as TimeUnit)
+      const result = adapter.add(baseValue, amount, unit as TimeUnit)
       expect(result).toEqual(adapter.parse(units[unit]))
     }
   })

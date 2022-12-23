@@ -12,7 +12,7 @@ describe('diff', () => {
       day: 365,
       week: 52,
       month: 12,
-      // quarter: 4,
+      quarter: 4,
       year: 1,
     }
 

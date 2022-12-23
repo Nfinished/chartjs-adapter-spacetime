@@ -22,7 +22,7 @@ describe('format', () => {
   const { value, units } = formats
 
   for (const unit of Object.keys(units)) {
-    it(`should format ${unit}`, () => {
+    it(`outputs a date in the ${unit} format`, () => {
       expect(adapter.format(value, unit)).toEqual(units[unit])
     })
   }

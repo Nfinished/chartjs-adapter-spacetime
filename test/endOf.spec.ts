@@ -15,12 +15,7 @@ describe('endOf', function () {
     year: '2019-12-31T23:59:59.999Z',
   }
 
-  // const utcStart = DateTime.fromISO(date).valueOf();
-
-  // const options = {zone: 'UTC', locale: 'en-GB'};
-  // const adapter = new Chart._adapters._date(options);
-
-  it('should correctly calculate the end of the period for specific unit', function () {
+  it('rounds up to the selected unit', function () {
     for (const unit of Object.keys(units)) {
       const result = adapter.endOf(date, unit as TimeUnit)
       expect(result).toEqual(adapter.parse(units[unit]))

@@ -1,7 +1,7 @@
 import { adapter } from '../src'
 
 describe('parse', () => {
-  it('should correctly parse using different types of value', function () {
+  it('correctly parses accepted values', function () {
     const inputValues = {
       utc: 1559056227321,
       jsDate: new Date(1559056227321),

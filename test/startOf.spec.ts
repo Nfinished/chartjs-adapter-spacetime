@@ -2,7 +2,7 @@ import { TimeUnit } from 'chart.js'
 import spacetime from 'spacetime'
 import { adapter } from '../src'
 
-describe('startof', function () {
+describe('startOf', function () {
   const date = '2019-05-28T15:10:27.321Z'
   const units = {
     millisecond: date,
@@ -16,14 +16,14 @@ describe('startof', function () {
     year: '2019-01-01T00:00:00.000Z',
   }
 
-  it('should correctly calculate the start of start the period for specific unit', function () {
+  it('rounds down to the selected unit', function () {
     for (const unit of Object.keys(units)) {
       const result = adapter.startOf(date, unit as TimeUnit)
       expect(result).toEqual(adapter.parse(units[unit]))
     }
   })
 
-  it('should startOf correctly using isoWeek preset', function () {
+  it('rounds down to the provided start of the week with the isoWeek strategy', function () {
     const dayOfWeekNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
     const daysInMonth = spacetime().daysInMonth()
 
@@ -77,7 +77,7 @@ describe('startof', function () {
     }
   })
 
-  it('should use correct date for startOf isoWeek when date is beginning of week', function () {
+  it("doesn't get confused by isoWeek when the current date is the start of a week", function () {
     const daysInMonth = spacetime().daysInMonth()
 
     for (let dayOfMonth = 1; dayOfMonth <= daysInMonth; dayOfMonth++) {
