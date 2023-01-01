@@ -34,11 +34,6 @@
       "prettier --write"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged -v"
-    }
-  },
   "author": "Adam Trager <hello@adamtrager.com>",
   "license": "MIT",
   "keywords": [
