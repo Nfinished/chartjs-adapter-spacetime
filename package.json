@@ -24,7 +24,7 @@
     "test": "jest",
     "build": "vite build",
     "lint": "eslint . --ext .ts,.tsx",
-    "prepare": "husky install"
+    "prepare": "husky install && yarn test && yarn build"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
