@@ -4,7 +4,7 @@
 [![npm peer dependency version](https://img.shields.io/npm/dependency-version/chartjs-adapter-spacetime/peer/chart.js?style=flat-square)](https://www.npmjs.com/package/chart.js)
 [![npm peer dependency version](https://img.shields.io/npm/dependency-version/chartjs-adapter-spacetime/peer/spacetime?style=flat-square)](https://www.npmjs.com/package/spacetime)
 
-## Spacetime support for Chart.js' TimeScale plugin.
+## Spacetime support for Chart.js TimeScale plugin.
 
 ```bash
 $ npm install spacetime chartjs-adapter-spacetime
