@@ -20,4 +20,7 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node }}
-    - uses: bahmutov/npm-install@v1
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7
+        run_install: true
