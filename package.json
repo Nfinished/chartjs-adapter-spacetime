@@ -52,7 +52,7 @@
     "@swc/core": "^1.7.21",
     "@swc/jest": "^0.2.36",
     "@types/jest": "^29.5.12",
-    "@types/node": "^18.19.47",
+    "@types/node": "^22.5.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "chart.js": "^4.4.4",
