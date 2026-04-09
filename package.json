@@ -65,6 +65,6 @@
     "prettier": "^3.3.3",
     "spacetime": "^7.6.1",
     "typescript": "^5.5.4",
-    "vite": "^5.4.2"
+    "vite": "^6.4.2"
   }
 }
